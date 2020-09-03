@@ -11,8 +11,8 @@ while num_int >= 0:
     if num_new > max_int:
         max_int = num_new
 
-    # Prenta út stærstu tölu
-    print("The maximum is", max_int)    # Do not change this line
-
     # Fæ input frá notanda
     num_int = int(input("Input a number: "))    # Do not change this line
+
+# Prenta út stærstu tölu
+print("The maximum is", max_int)    # Do not change this line
